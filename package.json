@@ -1,0 +1,19 @@
+{
+  "name": "web_gh_koempai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wrmn/web-gh-koem-pai.git"
+  },
+  "author": "wrmn <moawarman@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wrmn/web-gh-koem-pai/issues"
+  },
+  "homepage": "https://github.com/wrmn/web-gh-koem-pai#readme"
+}

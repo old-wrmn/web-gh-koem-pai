@@ -6,7 +6,7 @@ import MenuTrigger from "./header/Menu";
 class Header extends React.Component {
     render() {
         return (
-            <nav className="flex items-center justify-between flex-wrap bg-leaf p-6">
+            <nav className="flex items-center justify-between flex-wrap bg-leaf p-6" style={{height:"12vh"}}>
                 <div className="flex">
                     <MenuTrigger />
                     <Logo />

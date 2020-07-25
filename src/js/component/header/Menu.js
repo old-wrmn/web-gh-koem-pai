@@ -2,7 +2,12 @@ import React from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Menu extends React.Component {
-     render() {
+    handleClick(e){
+        e.preventDefault();
+        console.log("nice");
+    }
+
+    render() {
          return (
              <div className="block md:hidden">
             <a
@@ -11,7 +16,8 @@ class Menu extends React.Component {
                             hover:text-green-300
                             transition
                             duration-500
-                            ">
+                            "
+                onClick={this.handleClick}>
                 <FontAwesomeIcon
                     icon={["fa", "bars"]} />
             </a>

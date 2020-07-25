@@ -9,8 +9,8 @@ class Logo extends React.Component {
                         text-white
                         mr-6
                         pt-0
-                        pl-6">
-             <img src={file} className="inline h-12 md:h-16"/>
+             pl-6">
+             <img src={file} className="inline h-12 md:h-16" />
              <span className="font-display text-3xl md:text-5xl tracking-tight pl-2">
                      GreenHouse KoemPai
                  </span>

@@ -14,7 +14,9 @@ module.exports = {
         },
     },
   },
-  variants: {},
+  variants: {
+    width: ["responsive", "hover", "focus"]
+  },
   plugins: [
    plugin(function({ addComponents }) {
       const buttons = {

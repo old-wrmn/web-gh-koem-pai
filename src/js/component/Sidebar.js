@@ -6,7 +6,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class Sidebar extends React.Component {
     render() {
         return (
-            <div className="flex text-center text-sea text-4xl w-32 hidden md:block h-full bg-sky border border-sky pt-4">
+            <div className="flex
+                            text-center text-sea text-4xl w-32
+                            hidden md:block h-full
+                            bg-sky border border-sky pt-4">
                 <ul>
                     <li>
                         <MenuChild
